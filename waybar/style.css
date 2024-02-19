@@ -1,0 +1,13 @@
+* {
+  border-radius: 12px;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+#mpris {
+    padding-left: 10px;
+}
+
+#workspaces {
+    padding-right: 10px;
+}

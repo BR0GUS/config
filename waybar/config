@@ -1,0 +1,24 @@
+{
+    "layer": "top",
+        "modules-left": ["mpris"],
+        "modules-center": ["clock"],
+        "modules-right": ["tray", "wireplumber", "hyprland/workspaces"],
+        "clock": {
+            "format": "{:  %a %b%d | 󱑖  %H:%M}"
+        },
+        "mpris": {
+            "format" :"{status_icon} {title} - {artist} ",
+            "status-icons": {
+                "paused": "  ",
+                "playing": " 󰏤 ",
+            }
+        },
+        "wireplumber": {
+            "format": "{volume}% 🎧",
+            "on-click": "pavucontrol"
+        },
+        "tray": {
+            "icon-size": 15,
+            "spacing": 20
+        }
+}
